@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/fond\ jdp.png");
+    background-repeat: no-repeat repeat;
+}
+
+.centered-div {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.grey-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 182, 182);
+    height: 50px;
+}
+
