@@ -3,10 +3,12 @@ body {
     padding: 0;
     background-image: url("../imgs/fond\ jdp.png");
     background-repeat: no-repeat repeat;
+    background-size: contain;
 }
 
 .centered-div {
     margin: auto;
+    padding: 5px;
     width: 80%;
     text-align: center;
     background-color: aliceblue;
@@ -14,9 +16,50 @@ body {
 
 .grey-header {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(184, 182, 182);
     height: 50px;
 }
+
+.flex-display{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    flex: 48%;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.padd-container {
+    padding: 1%;
+}
+
+.scroll-container {
+    height: 500px;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+}
+
+.scroll {
+    /* background-color: #fed9ff; */
+    --width: 20%;
+    --height: 20px;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 50px;
+    width: var(--width);
+    height: var(--height); /* Do with variables in case we need another scroll elsewhere with different sizing */
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+  }
 
